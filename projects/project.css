@@ -18,3 +18,10 @@
 .navbar-nav .nav-item {
   padding: 0 1rem;
 }
+
+.navbar .navbar-toggler {
+  color: white !important;
+}
+.navbar-toggler-icon {
+  background-color: white !important;
+}
