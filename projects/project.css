@@ -25,3 +25,8 @@
 .navbar-toggler-icon {
   background-color: white !important;
 }
+
+#para-header {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
