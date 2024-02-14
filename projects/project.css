@@ -36,6 +36,10 @@
   background-color: white;
   color: black;
   border-color: #f8d210;
+  border-radius: 26px;
+  padding: 6px 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 #btn:hover {
