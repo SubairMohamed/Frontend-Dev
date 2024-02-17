@@ -65,3 +65,7 @@ i {
   text-align: center;
   padding-top: 15px;
 }
+
+section:not(:first-of-type) {
+  text-align: center;
+}
