@@ -53,6 +53,7 @@ section .home {
 }
 
 i {
+  color: #0c2d48;
   font-size: 2rem;
   border: 1px solid black;
   width: 4rem;
@@ -68,6 +69,10 @@ i {
 
 section:not(:first-of-type) {
   text-align: center;
+}
+
+.card {
+  box-shadow: 3px 3px #0c2d48;
 }
 
 .card-title {
