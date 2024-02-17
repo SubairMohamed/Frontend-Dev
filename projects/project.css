@@ -51,3 +51,13 @@ section .home {
   background-color: #1d4f78;
   max-width: 100%;
 }
+
+i {
+  border: 1px solid black;
+  width: 4rem;
+  height: 4rem;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
