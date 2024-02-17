@@ -69,3 +69,7 @@ i {
 section:not(:first-of-type) {
   text-align: center;
 }
+
+.card-title {
+  font-size: 1.2rem;
+}
