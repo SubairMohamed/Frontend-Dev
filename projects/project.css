@@ -47,6 +47,7 @@
   color: black;
 }
 
-section {
+section .home {
   background-color: #1d4f78;
+  max-width: 100%;
 }
