@@ -77,4 +77,5 @@ section:not(:first-of-type) {
 
 .card-title {
   font-size: 1.2rem;
+  color: #0c2d48;
 }
