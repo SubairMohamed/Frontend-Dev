@@ -53,11 +53,15 @@ section .home {
 }
 
 i {
+  font-size: 2rem;
   border: 1px solid black;
   width: 4rem;
   height: 4rem;
-  /* margin: auto; */
+  border-radius: 50%;
+  margin: 1rem auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding-top: 15px;
 }
