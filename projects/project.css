@@ -84,3 +84,7 @@ section:not(:first-of-type) {
 #knowledgement p {
   font-size: 1.2rem;
 }
+
+.label-color {
+  color: #0c2d48;
+}
