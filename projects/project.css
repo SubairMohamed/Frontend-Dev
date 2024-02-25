@@ -88,3 +88,13 @@ section:not(:first-of-type) {
 .label-color {
   color: #0c2d48;
 }
+
+.form-floating .btn {
+  font-size: 1.2rem;
+  background-color: #0c2d48;
+  color: white;
+}
+
+.form-floating .btn:hover {
+  color: white;
+}
