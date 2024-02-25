@@ -52,7 +52,7 @@ section .home {
   max-width: 100%;
 }
 
-i {
+.card .fa {
   color: #0c2d48;
   font-size: 2rem;
   border: 1px solid black;
@@ -62,8 +62,8 @@ i {
   margin: 1rem auto 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: start;
+  /* text-align: center; */
   padding-top: 15px;
 }
 
