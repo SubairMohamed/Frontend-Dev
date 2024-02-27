@@ -106,9 +106,12 @@ footer .container p {
 }
 
 footer .container .icons h5 {
+  color: #0c2d48;
   padding: 0 0.2rem 0.5rem 0;
 }
 
 footer .container .icons i {
+  font-size: 1.2rem;
+  color: #0c2d48;
   padding: 0 0 0.7rem 0.3rem;
 }
