@@ -98,3 +98,7 @@ section:not(:first-of-type) {
 .form-floating .btn:hover {
   color: white;
 }
+
+/* footer .container {
+  background-color: #559ad2;
+} */
