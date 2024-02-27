@@ -102,4 +102,5 @@ section:not(:first-of-type) {
 footer .container p {
   color: #0c2d48;
   font-weight: bold;
+  padding-right: 2rem;
 }
