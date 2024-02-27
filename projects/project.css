@@ -99,6 +99,7 @@ section:not(:first-of-type) {
   color: white;
 }
 
-/* footer .container {
-  background-color: #559ad2;
-} */
+footer .container p {
+  color: #0c2d48;
+  font-weight: bold;
+}
