@@ -106,5 +106,9 @@ footer .container p {
 }
 
 footer .container .icons h5 {
-  padding: 0 0.5rem 0.5rem 0;
+  padding: 0 0.2rem 0.5rem 0;
+}
+
+footer .container .icons i {
+  padding: 0 0 0.7rem 0.3rem;
 }
