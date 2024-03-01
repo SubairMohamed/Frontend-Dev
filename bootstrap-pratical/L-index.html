@@ -468,31 +468,30 @@
 
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button class="bg-dark" data-bs-target="#demo" data-bs-slide-to="0"></button>
-                <button class="bg-dark" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button class="bg-dark" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button data-bs-target="#demo" data-bs-slide-to="2"></button>
             </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img class="d-block" style="width: 100%;" src="/imgs/carousel-img-1.jpg" alt="picture">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/imgs/carousel-img-1.jpg" alt="new">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block" style="width: 100%;" src="/imgs/carousel-img-2.jpg" alt="picture">
+                    <img class="d-block w-100" src="/imgs/carousel-img-2.jpg" alt="chigaco">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block" style="width: 100%;" src="/imgs/carousel-img-3.jpg" alt="picture">
+                    <img class="d-block w-100" src="/imgs/carousel-img-3.jpg" alt="london">
                 </div>
             </div>
 
-            <div class="carousel-control">
-                <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bg-dark"></span>
-                </button>
-                <button class="crousel-control-next" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon bg-dark"></span>
-                </button>
-            </div>
+
+            <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
     </div>
     <!-- ends carousel -->
