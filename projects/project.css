@@ -127,3 +127,7 @@ footer .container .icons i {
 #Contact-us h1 {
   padding-top: 4rem;
 }
+
+.para {
+  display: inline-flex;
+}
