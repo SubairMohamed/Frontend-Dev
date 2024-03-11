@@ -133,4 +133,7 @@ footer .container .icons i {
 }
 
 @media only screen and (max-width: 768px) {
+  .para {
+    display: inline-block;
+  }
 }
