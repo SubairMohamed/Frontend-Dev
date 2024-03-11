@@ -112,8 +112,11 @@ footer .container .icons h5 {
 
 footer .container .icons i {
   font-size: 1.2rem;
-  color: #0c2d48;
   padding: 0 0 0.7rem 0.3rem;
+}
+
+.fa-github {
+  color: black;
 }
 
 #services h1 {
