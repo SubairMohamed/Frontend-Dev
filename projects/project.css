@@ -137,6 +137,7 @@ footer .container .icons i {
     display: inline-block;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1rem;
   }
 
   .copy-right {
