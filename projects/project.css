@@ -135,6 +135,10 @@ footer .container .icons i {
   color: #b80000;
 }
 
+.fa {
+  cursor: pointer;
+}
+
 #services h1 {
   padding-top: 3rem;
 }
