@@ -115,6 +115,10 @@ footer .container .icons i {
   padding: 0 0 0.7rem 0.3rem;
 }
 
+.icons {
+  line-height: 2px;
+}
+
 .fa-github {
   color: black;
 }
@@ -152,7 +156,6 @@ footer .container .icons i {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1rem;
   }
 
   .copy-right {
