@@ -18,3 +18,8 @@ body {
 .nav-item .nav-link:hover {
   color: #337357;
 }
+
+.navbar-brand:last-of-type {
+  font-weight: bold;
+  color: #337357;
+}
