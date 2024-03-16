@@ -1,3 +1,9 @@
 .navbar {
   background-color: #98d149;
 }
+
+#navbarNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
