@@ -23,24 +23,46 @@
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav nav  mx-auto" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">All</a>
+                        <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Category</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Advantages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
                     </li>
                 </ul>
                 <a class="navbar-brand d-none d-lg-block" href="#">Sign-In</a>
             </div>
         </div>
     </nav>
+
+    <div class="container mt-3">
+        <h2>Toggleable Tabs</h2>
+        <br>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+                <h3 class="text-center">HOME</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+            <div id="menu1" class="container tab-pane fade"><br>
+                <h3>Menu 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+                <h3>Menu 2</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam.</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
