@@ -19,6 +19,10 @@ body {
   color: #337357;
 }
 
+.nav-item .nav-link:focus {
+  color: #337357;
+}
+
 .navbar-brand:last-of-type {
   font-weight: bold;
   color: #337357;
