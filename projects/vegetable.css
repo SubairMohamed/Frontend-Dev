@@ -27,3 +27,9 @@ body {
   font-weight: bold;
   color: #337357;
 }
+
+.fs-5 {
+  font-family: "Raleway";
+  width: 52%;
+  margin: auto;
+}
