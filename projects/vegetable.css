@@ -38,12 +38,7 @@ body {
   margin: auto;
 }
 
-.navbar .navbar-toggler {
-  color: #337357 !important;
-}
-.navbar-toggler-icon {
-  background-color: #337357 !important;
-}
+.navbar .navbar-toggler,
 .fa-bars {
   color: #337357 !important;
 }
