@@ -42,3 +42,9 @@ body {
 .fa-bars {
   color: #337357 !important;
 }
+
+.information {
+  font-family: "Raleway";
+  font-weight: 300;
+  max-width: 550px;
+}
