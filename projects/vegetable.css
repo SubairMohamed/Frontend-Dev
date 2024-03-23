@@ -49,3 +49,10 @@ body {
   font-weight: 300;
   max-width: 550px;
 }
+
+.unorder-list {
+  font-size: 1.1rem;
+  font-family: "Raleway";
+  font-weight: 300;
+  max-width: 550px;
+}
