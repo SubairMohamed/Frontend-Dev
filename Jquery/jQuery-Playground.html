@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jquery playground</title>
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css">
     <script src="/Jquery/jquery.js"></script>
 </head>
 
@@ -15,9 +16,16 @@
         $(document).ready(function () {
             $("button").click(function () {
                 $("p").hide();
+                $("button").hide("bounce");
             });
         });
+        $(document).ready(function () {
+            $("h2").text("asc");
+        });
     </script>
+
+
+    <h2>welcome</h2>
 
     <p>This is a paragraph.</p>
     <p>This is another paragraph.</p>
