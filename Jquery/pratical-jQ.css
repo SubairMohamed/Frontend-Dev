@@ -21,4 +21,5 @@ button {
   background-color: gray;
   padding: 1rem;
   border-radius: 10px;
+  gap: 5px;
 }
