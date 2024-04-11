@@ -19,7 +19,7 @@ button {
 .well {
   display: inline-flex;
   background-color: gray;
-  padding: 1rem;
+  padding: 4rem 1rem;
   border-radius: 10px;
   gap: 5px;
 }
