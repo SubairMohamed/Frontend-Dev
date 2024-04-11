@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+h4 {
+  color: green;
+}
+
 button {
   padding: 0.5rem;
 }
