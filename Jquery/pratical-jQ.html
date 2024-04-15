@@ -15,11 +15,12 @@
 
     <script>
         $(document).ready(function () {
+            $("#target2").addClass("animated fadeout")
             $("h4").css("padding-top", "2rem");
             $(".well").css('background-color', 'orange');
             $("button").css("color", 'white');
-            $('button').removeClass("default");
-            $("button").addClass("btn-primary");
+            $("#target3").addClass("btn-primary");
+            $('#target4').removeClass("btn-default");
             $("#target1").prop("disabled", true);
             $("#left").html("<strong>Left Well</strong>")
         });
