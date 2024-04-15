@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratical jQuery</title>
     <link rel="stylesheet" href="pratical-jQ.css">
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/Jquery/jquery.js"></script>
 </head>
 
@@ -15,7 +17,7 @@
         $(document).ready(function () {
             $(".well").css('background-color', 'orange');
             $("button").css("color", 'blue');
-            $('button').removeClass();
+            $('button').removeClass("default");
         });
     </script>
 
@@ -28,17 +30,17 @@
         <div class="flex-item">
             <h4>Left Well</h4>
             <div class="well">
-                <button class="">Target1</button>
-                <button class="">Target2</button>
-                <button class="">Target3</button>
+                <button class="btn">Target1</button>
+                <button class="btn">Target2</button>
+                <button class="btn">Target3</button>
             </div>
         </div>
         <div class="flex-item">
             <h4>Right Well</h4>
             <div class="well">
-                <button class="">Target4</button>
-                <button class="">Target5</button>
-                <button class="">Target6</button>
+                <button class="btn">Target4</button>
+                <button class="btn">Target5</button>
+                <button class="btn">Target6</button>
             </div>
         </div>
     </div>
