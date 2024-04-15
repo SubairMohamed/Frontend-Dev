@@ -18,14 +18,15 @@
             $("#target2").addClass("animated fadeout")
             $("h4").css("padding-top", "2rem");
             $(".well").css('background-color', 'orange');
-            $("button").css("color", 'white');
+            $("button").css("color", 'blue');
             $("#target3").addClass("btn-danger");
             $("#target1").prop("disabled", true);
             $("#left").html("<strong>Left Well</strong>");
             $("#target6").remove();
             $("#target2").appendTo("#right-well");
             $("#target4").clone().appendTo("#left-well");
-            $("#target5").parent().css("background-color", 'black');
+            //$("#target5").parent().css("background-color", 'black');
+            $("body").addClass("animated hinge");
         });
     </script>
 
@@ -37,7 +38,7 @@
     <div class="flex">
         <div class="flex-item">
             <h4 id="left">Left Well</h4>
-            <div class="well" id="left-well">
+            <div class="wel" id="left-well">
                 <button class="btn" id="target1">Target1</button>
                 <button class="btn" id="target2">Target2</button>
                 <button class="btn" id="target3">Target3</button>
@@ -45,7 +46,7 @@
         </div>
         <div class="flex-item">
             <h4 id="right">Right Well</h4>
-            <div class="well" id="right-well">
+            <div class="wel" id="right-well">
                 <button class="btn" id="target4">Target4</button>
                 <button class="btn" id="target5">Target5</button>
                 <button class="btn" id="target6">Target6</button>
