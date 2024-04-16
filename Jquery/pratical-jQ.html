@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratical jQuery</title>
     <link rel="stylesheet" href="pratical-jQ.css">
-    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
     <script src="/Jquery/jquery.js"></script>
 </head>
 
@@ -15,7 +14,7 @@
 
     <script>
         $(document).ready(function () {
-            $("h3").addClass("animated shake")
+            $("h3").addClass("shake");
             $("h4").css("padding-top", "2rem");
             $(".well").css('background-color', 'orange');
             $("button").css("color", 'blue');
@@ -26,7 +25,7 @@
             $("#target2").appendTo("#right-well");
             $("#target4").clone().appendTo("#left-well");
             //$("#target5").parent().css("background-color", 'black');
-            $("body").addClass("animated hinge");
+            $("#target3").addClass("animated shake");
         });
     </script>
 
