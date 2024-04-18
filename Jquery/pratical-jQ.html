@@ -19,16 +19,17 @@
             $(".well").css('background-color', 'orange');
             $("button").css("color", 'blue');
             $("#target3").addClass("btn-danger");
-            $("#target3").addClass("animate__animated animate__bounce");
+            $("#target2").addClass("animate__animated animate__bounce");
             $("#target1").prop("disabled", true);
             $("#left").html("<strong>Left Well</strong>");
-            $("#target6").remove();
-            $("#target2").appendTo("#right-well");
-            $("#target4").clone().appendTo("#left-well");
+            //$("#target6").remove();
+            //$("#target2").appendTo("#right-well");
+            //$("#target4").clone().appendTo("#left-well");
             $("#target5").parent().css("color", 'black');
             $("#right-well").children().css("color", 'red');
             $(".btn:nth-child(3)").addClass("animate__animated animate__swing");
-            $(".btn:even").even().css("color", 'orange');
+            $(".btn:even").css("color", 'orange');
+
         });
     </script>
 
@@ -52,14 +53,16 @@
                 <button class="btn" id="target1">Target1</button>
                 <button class="btn" id="target2">Target2</button>
                 <button class="btn" id="target3">Target3</button>
+                <button class="btn" id="target4">Target4</button>
             </div>
         </div>
         <div class="flex-item">
             <h4 id="right">Right Well</h4>
             <div class="wel" id="right-well">
-                <button class="btn" id="target4">Target4</button>
                 <button class="btn" id="target5">Target5</button>
                 <button class="btn" id="target6">Target6</button>
+                <button class="btn" id="target7">Target7</button>
+                <button class="btn" id="target8">Target8</button>
             </div>
         </div>
     </div>
