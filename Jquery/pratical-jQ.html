@@ -8,35 +8,10 @@
     <link rel="stylesheet" href="pratical-jQ.css">
     <link rel="stylesheet" href="/node_modules/animate.css/animate.css">
     <script src="/Jquery/jquery.js"></script>
+    <script src="/Jquery/function-separate.js"></script>
 </head>
 
 <body>
-
-    <script>
-        $(document).ready(function () {
-            $("h3").addClass("animate__animated animate__shakeX");
-            $("h4").css("padding-top", "2rem");
-            $(".well").css('background-color', 'orange');
-            $("button").css("color", 'blue');
-            $("#target3").addClass("btn-danger");
-            $("#target2").addClass("animate__animated animate__bounce");
-            $("#target1").prop("disabled", true);
-            $("#left").html("<strong>Left Well</strong>");
-            //$("#target6").remove();
-            //$("#target2").appendTo("#right-well");
-            //$("#target4").clone().appendTo("#left-well");
-            $("#target5").parent().css("color", 'black');
-            $("#right-well").children().css("color", 'red');
-            $(".btn:nth-child(3)").addClass("animate__animated animate__swing");
-            $(".btn:even").css("background-color", 'orange');
-        });
-        $(function () {
-            $(".btn:odd").click(function () {
-                $(".btn:odd").css("background-color", 'green');
-            });
-
-        });
-    </script>
 
     <!-- 
         pseudo-class css
