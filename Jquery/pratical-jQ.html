@@ -19,13 +19,14 @@
             $(".well").css('background-color', 'orange');
             $("button").css("color", 'blue');
             $("#target3").addClass("btn-danger");
+            $("#target3").addClass("animate__animated animate__bounce");
             $("#target1").prop("disabled", true);
             $("#left").html("<strong>Left Well</strong>");
             $("#target6").remove();
             $("#target2").appendTo("#right-well");
             $("#target4").clone().appendTo("#left-well");
-            //$("#target5").parent().css("background-color", 'black');
-            $("#target3").addClass("animate__animated animate__bounce");
+            $("#target5").parent().css("color", 'black');
+            $("#right-well").children().css("color", 'red');
         });
     </script>
 
