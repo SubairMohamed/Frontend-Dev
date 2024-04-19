@@ -20,13 +20,19 @@
 
         // jQuery Events
         $(document).ready(function () {
-            $("p").click(function () {
-                $(this).hide();
+            //$("p").click(function () {
+            //$(this).hide();
+            //});
+
+            //$("p").dbclick(function () {
+            //$(this).hide();
+            //});
+
+            $("p").mouseenter(function () {
+                //alert("you enters paragraphy");
+                $(this).css("background-color", 'orange');
             });
 
-            $("p").dbclick(function () {
-                $(this).hide();
-            });
         });
     </script>
 
