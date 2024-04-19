@@ -28,16 +28,21 @@
             //$(this).hide();
             //});
 
-            $("p").mouseenter(function () {
-                //alert("you enters paragraphy");
-                $(this).css("background-color", 'orange');
-            });
+            //$("p").mouseenter(function () {
+            //alert("you enters paragraphy");
+            //$(this).css("background-color", 'orange');
+            //});
 
+            $(function () {
+                $(".p1").mouseleave(function () {
+                    //alert("bye you now to leave");
+                });
+            })
         });
     </script>
 
     <button class="m-5">animated</button>
-    <p class="p1"></p>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, reprehenderit!</p>
 
 
