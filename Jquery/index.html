@@ -61,8 +61,12 @@
                     $(".p2").css("color", 'orange');
                 });
 
-            $("input").focus(function () {
+            $("button").focus(function () {
+                $(this).css("color", 'red');
+            });
 
+            $("input").blur(function () {
+                $("input").css("background-color", 'yellow');
             });
 
         });
