@@ -61,13 +61,13 @@
             // $(".p2").css("color", 'orange');
             //});
 
-            //$("input").focus(function () {
-            //$(this).css("color", 'red');
-            //});
+            $("#t1").focus(function () {
+                $("#s1").html("enter your name");
+            });
 
-            //$("input").blur(function () {
-            //$("input").css("color", 'yellow');
-            //});
+            $("#t1").blur(function () {
+                $("#s1").html("ok");
+            });
 
             //$(".p1").on("mousedown", function () {
             //$(".p1").hide();
@@ -97,7 +97,7 @@
     <br>
     <br>
     <label>name</label>
-    <input type="text" id="t1">
+    <input type="text" id="t1"><span id="s1"></span>
     <br>
     <label>email</label>
     <input type="email">
