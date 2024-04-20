@@ -69,8 +69,18 @@
             //$("input").css("color", 'yellow');
             //});
 
-            $(".p1").on("mousedown", function () {
-                $(".p1").hide();
+            //$(".p1").on("mousedown", function () {
+            //$(".p1").hide();
+            //});
+            //or
+            $(".p2").on({
+                mouseenter: function () {
+                    $(this).css("color", 'blue');
+                },
+
+                mouseleave: function () {
+                    $(this).css("color", 'orange');
+                },
             });
         });
     </script>
