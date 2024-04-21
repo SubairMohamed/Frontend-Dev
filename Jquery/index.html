@@ -61,12 +61,22 @@
             // $(".p2").css("color", 'orange');
             //});
 
-            $("#t1").focus(function () {
-                $("#s1").html("enter your name");
-            });
+            //$("#t1").focus(function () {
+            //$("#s1").html("enter your name");
+            //});
 
-            $("#t1").blur(function () {
-                $("#s1").html("ok");
+            //$("#t1").blur(function () {
+            //$("#s1").html("ok");
+            //});
+
+            $("#t1").on({
+                focus: function () {
+                    $("#s1").html("enter your name");
+                },
+
+                blur: function () {
+                    $("#s1").html("");
+                },
             });
 
             //$(".p1").on("mousedown", function () {
@@ -100,7 +110,7 @@
     <input type="text" id="t1"><span id="s1"></span>
     <br>
     <label>email</label>
-    <input type="email">
+    <input type="email" id="t1"><span id="s2"></span>
 
     <button class="m-5">animated</button>
     <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
