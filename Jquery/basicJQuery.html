@@ -22,20 +22,22 @@
             //});
 
             // string variable
-            //var htext = "we make some text in variable";
-            var htext = $("#head1").text();
+            var htext = "we make some text in variable,";
+            var htext1 = $("#head1").text();
             $("h1").click(function () {
-                $("p").text(htext);
+                $("p").text(htext2);
             });
 
             // combine variable
+            var htext2 = htext + htext1;
+
         });
 
 
 
     </script>
 
-    <h1 id="head1">heading</h1>
+    <h1 id="head1">Heading</h1>
     <!-- <p>heading 1</p> -->
 
     <p>first paragraphy</p>
