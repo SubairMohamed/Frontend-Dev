@@ -14,8 +14,15 @@
     <script>
         $(document).ready(function () {
             // variable in jQuery
-            var htext = "welcome to jQuery";
+            //var htext = "welcome to jQuery";
             //console.log(htext);
+
+            //$("h1").click(function () {
+            //$("p").text(htext);
+            //});
+
+            var htext = $("#head1").text();
+
             $("h1").click(function () {
                 $("p").text(htext);
             });
@@ -26,7 +33,11 @@
     </script>
 
     <h1>heading</h1>
-    <p>paragraphy</p>
+    <!-- <p>paragraphy</p> -->
+
+    <p id="head1">paragraphy</p>
+    <p id="head1">paragraphy</p>
+    <p id="head1">paragraphy</p>
 </body>
 
 </html>
