@@ -22,14 +22,14 @@
             //});
 
             // string variable
-            var htext = "we make some text in variable,";
-            var htext1 = $("#head1").text();
+            var htext = "we make some text in variable," + $("#head1").text();
+            //var htext1 = $("#head1").text();
             $("h1").click(function () {
-                $("p").text(htext2);
+                $("p").text(htext);
             });
 
             // combine variable
-            var htext2 = htext + htext1;
+            //var htext2 = htext + htext1;
 
             // Array in jquery
             ///var fruit = ["banana", "apple", "guava"];
