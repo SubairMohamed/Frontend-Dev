@@ -34,7 +34,8 @@
             // specific index
             var indexNum = 0;
             $("h1").click(function () {
-                $("p").eq(indexNum).css("background-color", 'yellow');
+                $("p").css("background-color", 'yellow');
+                $("p").eq(indexNum).css("background-color", 'blue');
                 indexNum++;
             });
 
