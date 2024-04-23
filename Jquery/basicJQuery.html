@@ -41,9 +41,17 @@
             });
 
             var fruit = ["/imgs/apple.jpg", "/imgs/avocado.webp", "/imgs/carot.webp", "/imgs/cabbage.jpg"];
+            var indexNum1 = 0;
+            $("img").click(function () {
+                $("img").attr("src", fruit[indexNum1]);
+                indexNum1++;
+                if (indexNum1 > 3) { indexNum1 = 0 }
+            });
+
+
 
             // Array in jquery
-            ///var fruit = ["banana", "apple", "guava"];
+            //var fruit = ["banana", "apple", "guava"];
             //console.log(fruit);
 
             // Object in jquery
@@ -67,9 +75,6 @@
     <p>third paragraphy</p>
     <br>
     <img class="img1" src="/imgs/apple.jpg" alt="img-1" width="300">
-    <img class="img2" src="/imgs/avocado.webp" alt="img-2" width="300">
-    <img class="img3" src="/imgs/carot.webp" alt="img-3" width="300">
-    <img class="img4" src="/imgs/cabbage.jpg" alt="img-4" width="300">
 </body>
 
 </html>
