@@ -61,22 +61,18 @@
             // $(".p2").css("color", 'orange');
             //});
 
-            //$("#t1").focus(function () {
-            //$("#s1").html("enter your name");
-            //});
+            $("#t1").focus(function () {
+                $("#s1").html("enter your number")
+            });
 
-            //$("#t1").blur(function () {
-            //$("#s1").html("ok");
-            //});
+            $("#t1").blur(function () {
+                var num = $("#t1").val();
+                if (num.length < 3) {
+                    $("#s1").html("minimun 3 char is required")
+                } else {
+                    $("#s1").html("ok")
+                }
 
-            $("#t1").on({
-                focus: function () {
-                    $("#s1").html("enter your name");
-                },
-
-                blur: function () {
-                    $("#s1").html("");
-                },
             });
 
             //$(".p1").on("mousedown", function () {
@@ -100,12 +96,6 @@
             //$(this).hide();
             //},
             //});
-
-            //var name = 'india';
-            //alert(name);
-
-            var hText = $("#head1").text();
-            alert(hText);
         });
     </script>
 
@@ -115,8 +105,8 @@
     <label>name</label>
     <input type="text" id="t1"><span id="s1"></span>
     <br>
-    <label>email</label>
-    <input type="email" id="t1"><span id="s2"></span>
+    <!-- <label>email</label>
+    <input type="email" id="t2"><span id="s2"></span> -->
 
     <button class="m-5">animated</button>
     <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
