@@ -4,6 +4,10 @@ input {
   margin: auto;
 }
 
+textarea {
+  max-width: 80%;
+}
+
 span {
   display: block;
   margin: auto;
