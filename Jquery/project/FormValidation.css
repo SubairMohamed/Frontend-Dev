@@ -1,5 +1,12 @@
 input {
-  max-width: 40%;
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+span {
+  display: block;
+  margin: auto;
 }
 
 .parent {
