@@ -8,4 +8,6 @@ input {
   display: block;
   margin: 4rem auto;
   padding: 2rem 0;
+  box-shadow: 3px 3px 1px 0px gray;
+  border-radius: 10px;
 }
