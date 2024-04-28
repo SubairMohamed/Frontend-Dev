@@ -14,7 +14,9 @@
 <body class="bg-secondary">
     <script>
         $(document).ready(function () {
-
+            $("#name").focus(function () {
+                $("#s-name").html("Please Enter Your Name");
+            });
         });
     </script>
 
@@ -24,8 +26,7 @@
             <fieldset class="parent shadow-lg">
                 <!-- Name -->
                 <input type="text" id="name" placeholder="Name*" class="px-2 mx-5 form-control"><span id="s-name"
-                    class="text-danger mx-5">Please enter your
-                    name</span>
+                    class="text-danger mx-5"></span>
 
                 <!-- Email -->
                 <input type="email" id="email" placeholder="Email*" class="px-2 mx-5 mt-3 form-control"><span
