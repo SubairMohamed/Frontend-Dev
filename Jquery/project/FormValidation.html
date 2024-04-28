@@ -34,6 +34,15 @@
             });
             //ends Email
 
+            //Phone
+            $("#number").focus(function () {
+                $("#s-number").html("Please Enter Your Phone");
+            });
+
+            $("#number").blur(function () {
+                $("#s-number").html("");
+            });
+            // Ends Phone
         });
     </script>
 
@@ -51,8 +60,8 @@
 
                 <!-- Phone -->
                 <input type="number" id="number" placeholder="Phone*" class="px-2 mx-5 mt-3 form-control"><span
-                    id="s-number" class="text-danger mx-5">Please enter your
-                    Phone</span>
+                    id="s-number" class="text-danger mx-5">
+                </span>
 
                 <!-- Subject -->
                 <input type="text" id="subject" placeholder="Subject*" class="px-2 mx-5 mt-3 form-control"><span
