@@ -48,6 +48,12 @@
                 if (indexNum1 > 3) { indexNum1 = 0 }
             });
 
+            $("#my-form").click(function (event) {
+                event.preventDefault();
+                var txtinput = $("#t-input").val();
+                $("#head1").html(txtinput);
+            });
+
             // Array in jquery
             //var fruit = ["banana", "apple", "guava"];
             //console.log(fruit);
@@ -74,8 +80,10 @@
     <br>
     <img class="img1" src="/imgs/apple.jpg" alt="img-1" width="300">
 
-    <input type="text" id="t-input">
-    <input type="button" value="Submit">
+    <form action="" id="my-form">
+        <input type="text" id="t-input">
+        <input type="button" value="Submit" id="submit">
+    </form>
 </body>
 
 </html>
