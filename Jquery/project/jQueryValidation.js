@@ -49,8 +49,9 @@ $(document).ready(function () {
   });
   //Ends Message
 
-  $(".btn").click(function (event) {
-    event.preventDefault();
-    $("#card").hide();
-  });
+  //$(".btn").click(function (event) {
+  //  event.preventDefault();
+  //  $("#card").hide();
+  //  $("body").html("The Form Is Submitted");
+  //});
 });
