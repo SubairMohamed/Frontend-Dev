@@ -54,6 +54,12 @@
             //var txtinput = $("#t-input").val();
             //$("#head1").html(txtinput);
             //});
+
+            $("form").submit(function () {
+                //alert("welcome to submit");
+                var txt = $("#t-input").val();
+                $("#head1").html(txt);
+            });
             // Ends Submit
 
             // Array in jquery
@@ -82,9 +88,9 @@
     <br>
     <img class="img1" src="/imgs/apple.jpg" alt="img-1" width="300">
 
-    <form action="" id="my-form">
+    <form>
         <input type="text" id="t-input">
-        <input type="button" value="Submit" id="submit">
+        <input type="submit" value="Submit">
     </form>
 </body>
 
