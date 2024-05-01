@@ -55,8 +55,10 @@
             //$("#head1").html(txtinput);
             //});
 
-            $("form").submit(function () {
-                //alert("welcome to submit");
+            $("form").submit(function (event) {
+                // hdii ann ka tago event ka wxa imanaya inuu mrka is loading gareyo uu hdana si dhakhsa leh isku baabeeyo
+                alert("welcome to submit");
+                event.preventDefault();
                 var txt = $("#t-input").val();
                 $("#head1").html(txt);
             });
