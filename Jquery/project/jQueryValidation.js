@@ -49,7 +49,8 @@ $(document).ready(function () {
   });
   //Ends Message
 
-  $(".btn").click(function () {
+  $(".btn").click(function (event) {
+    event.preventDefault();
     $("#card").hide();
   });
 });
