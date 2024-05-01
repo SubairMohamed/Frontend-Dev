@@ -48,4 +48,8 @@ $(document).ready(function () {
     $("#s-message").html("");
   });
   //Ends Message
+
+  $(".btn").click(function () {
+    $("#card").hide();
+  });
 });
