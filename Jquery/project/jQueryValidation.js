@@ -54,4 +54,11 @@ $(document).ready(function () {
   //  $("#card").hide();
   //  $("body").html("The Form Is Submitted");
   //});
+
+  $("form").submit(function () {
+    if (!$("form .px-2").val()) {
+      $("form .px-2").addClass("border-danger");
+      return false;
+    }
+  });
 });
