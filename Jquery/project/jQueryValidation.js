@@ -57,6 +57,7 @@ $(document).ready(function () {
 
   $("form").submit(function () {
     if (!$("form .px-2").val()) {
+      $("span").html("Required");
       $("form .px-2").addClass("border-danger");
       return false;
     }
