@@ -1,0 +1,8 @@
+.slow {
+  display: inline-flex;
+  background-color: blue;
+  color: white;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
