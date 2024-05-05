@@ -6,3 +6,21 @@
   margin: 20px 0;
   border-radius: 5px;
 }
+
+.fast {
+  display: inline-flex;
+  background-color: red;
+  color: white;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.milliseconds {
+  display: inline-flex;
+  background-color: green;
+  color: white;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
