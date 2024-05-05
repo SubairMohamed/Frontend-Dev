@@ -1,26 +1,29 @@
 .slow {
-  display: inline-flex;
+  display: none;
   background-color: blue;
+  width: 80%;
+  height: 80%;
   color: white;
   padding: 25px;
   margin: 20px 0;
-  border-radius: 5px;
 }
 
 .fast {
-  display: inline-flex;
+  display: none;
   background-color: red;
   color: white;
+  width: 80%;
+  height: 80%;
   padding: 25px;
   margin: 20px 0;
-  border-radius: 5px;
 }
 
 .milliseconds {
-  display: inline-flex;
+  display: none;
   background-color: green;
-  color: white;
+  width: 80%;
+  height: 80%;
   padding: 25px;
   margin: 20px 0;
-  border-radius: 5px;
+  color: white;
 }
