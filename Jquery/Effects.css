@@ -28,7 +28,7 @@
   color: white;
 }
 
-/* Start slide down */
+/* Start JQuery slide */
 
 #btn {
   cursor: pointer;
@@ -43,7 +43,8 @@
 }
 
 #para {
-  display: none;
+  /* display: none; */
   padding: 50px;
 }
-/* Ends slide down */
+
+/* Ends JQuery slide */
