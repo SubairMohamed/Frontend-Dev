@@ -27,3 +27,14 @@
   margin: 20px 0;
   color: white;
 }
+
+/* Start slide down */
+
+#btn,
+#para {
+  padding: 5px;
+  background-color: burlywood;
+  border: 1px solid gray;
+  text-align: center;
+}
+/* Ends slide down */
