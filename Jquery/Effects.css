@@ -37,4 +37,9 @@
   border: 1px solid gray;
   text-align: center;
 }
+
+#para {
+  display: none;
+  padding: 50px;
+}
 /* Ends slide down */
