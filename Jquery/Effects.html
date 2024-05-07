@@ -57,9 +57,9 @@
 
             // fade To
             $("button").click(function () {
-                $(".slow").fadeToggle("slow");
-                $(".fast").fadeToggle("fast");
-                $(".milliseconds").fadeToggle("2000");
+                $(".slow").fadeTo("slow", 0.2);
+                $(".fast").fadeTo("fast", 0.4)
+                $(".milliseconds").fadeTo("3000", 0.6)
             });
 
         });
@@ -104,7 +104,7 @@
 
     <!-- fade To -->
     <!-- it not use display none -->
-    <button>fade toggle</button>
+    <button>fade to</button>
     <div class="slow">slow</div>
     <div class="fast">fast</div>
     <div class="milliseconds">MScon</div>
