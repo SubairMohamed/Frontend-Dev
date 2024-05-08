@@ -51,6 +51,7 @@
 
 /* Start JQuery Animate */
 .item {
+  position: absolute;
   background-color: brown;
   width: 100px;
   height: 100px;
