@@ -48,3 +48,11 @@
 }
 
 /* Ends JQuery slide */
+
+/* Start JQuery Animate */
+.item {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+}
+/* End JQuery Animate */
