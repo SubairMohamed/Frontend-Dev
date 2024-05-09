@@ -93,7 +93,9 @@
 
                 // Queue Functionality
                 var div = $(".item");
-                div.animate({ height: '150px', opacity: '0.5' }, 'slow');
+                div.animate({ height: '150px' }, 'slow');
+                div.animate({ width: '150px', borderRadius: '20px' }, 'slow');
+                div.animate({ fontSize: '1.5rem' }, 'slow');
             });
         });
     </script>
@@ -165,7 +167,7 @@
 
     <!-- Start JQuery Animate -->
     <button id="animate" class="m-5">animation</button>
-    <div class="item"></div>
+    <div class="item">welcome</div>
     <!-- End JQuery Animate -->
 </body>
 
