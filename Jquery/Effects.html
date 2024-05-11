@@ -17,7 +17,10 @@
         $("document").ready(function () {
 
             $("#hide").click(function () {
-                $("p").hide();
+                $("p").hide(function () {
+                    // speed kana wd ka maarmi kartaa
+                    alert("finished effect called callback");
+                });
             });
 
             $("#show").click(function () {
