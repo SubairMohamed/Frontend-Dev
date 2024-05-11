@@ -74,14 +74,6 @@
 
             // slide toggle
 
-            $("#start").click(function () {
-                $("#para").slideToggle();
-            });
-
-            $("#stop").click(function () {
-                $("#para").stop();
-            });
-
             $("#btn").click(function () {
                 $("#para").slideToggle();
             });
@@ -106,6 +98,16 @@
                 div.animate({ width: '150px', borderRadius: '20px' }, 'slow');
                 div.animate({ fontSize: '1.5rem' }, 'slow');
             });
+
+            // stop animation
+            $("#start").click(function () {
+                $("#para").slideToggle();
+            });
+
+            $("#stop").click(function () {
+                $("#para").stop();
+            });
+            // end stop animation
         });
     </script>
 
