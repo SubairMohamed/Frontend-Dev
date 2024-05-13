@@ -10,6 +10,7 @@ body {
 nav {
   background-color: burlywood;
   padding: 1.75rem;
+  box-shadow: 3px 3px 2px 1px gray;
 }
 
 nav ul {
