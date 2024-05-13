@@ -12,10 +12,25 @@
 
 <body>
 
+    <script>
+        $(document).ready(function () {
+
+            $("li").mouseenter(function () {
+                $("div").slideDown();
+            });
+
+            $("li").mouseleave(function () {
+                $("div").slideUp();
+            });
+        });
+    </script>
+
 
     <nav>
         <ul>
-            <li>Home</li>
+            <li>Home
+                <div>developer</div>
+            </li>
             <li>About</li>
             <li>Contact</li>
         </ul>
