@@ -26,4 +26,5 @@ li {
   color: white;
   list-style: none;
   padding: 0.5rem;
+  cursor: pointer;
 }
