@@ -7,7 +7,7 @@
     <title>Webpage JQuery</title>
     <link rel="stylesheet" href="webJQuery.css">
     <link rel="stylesheet" href="/node_modules/animate.css/animate.css">
-    <!-- <script src="/Jquery/jquery.js"></script> -->
+    <script src="/Jquery/jquery.js"></script>
 </head>
 
 <body>
@@ -15,11 +15,11 @@
     <script>
         $(document).ready(function () {
 
-            $("li").mouseenter(function () {
+            $(".li-flex").click(function () {
                 $("a").slideDown();
             });
 
-            $("li").mouseleave(function () {
+            $(".li-flex").mouseleave(function () {
                 $("a").slideUp();
             });
         });

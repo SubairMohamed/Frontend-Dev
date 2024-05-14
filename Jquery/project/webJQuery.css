@@ -30,6 +30,7 @@ li {
 }
 
 a {
+  display: none;
   position: absolute;
   top: 12%;
   font-size: 1.7rem;
