@@ -9,7 +9,7 @@ body {
 
 nav {
   background-color: burlywood;
-  padding: 1.75rem;
+  padding: 1rem;
   box-shadow: 3px 3px 2px 1px gray;
 }
 
@@ -21,14 +21,14 @@ nav ul {
 }
 
 li {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: white;
   list-style: none;
-  padding: 0.5rem;
+  padding: 1rem;
   cursor: pointer;
 }
 
-div {
+a {
   display: none;
 }
