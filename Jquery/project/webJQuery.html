@@ -15,12 +15,10 @@
     <script>
         $(document).ready(function () {
 
-            $(".li-flex").click(function () {
-                $("a").slideDown();
-            });
 
-            $(".li-flex").mouseleave(function () {
-                $("a").slideUp();
+
+            $(".li-flex").click(function () {
+                $(".li-item").slideToggle();
             });
         });
     </script>
@@ -29,7 +27,13 @@
     <nav>
         <ul>
             <li class="li-flex">Home
-                <a>developer</a>
+                <div class="li-item">
+                    <a class="item" href="https://www.google.com" target="_blank">web</a>
+                    <a class="item" href="https://www.google.com" target="_blank">developer</a>
+                    <a class="item" href="https://www.google.com" target="_blank">site</a>
+                    <a class="item" href="https://www.google.com" target="_blank">official</a>
+                    <a class="item" href="https://www.google.com" target="_blank">own</a>
+                </div>
             </li>
             <li>About</li>
             <li>Contact</li>
