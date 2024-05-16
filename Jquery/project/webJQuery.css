@@ -29,7 +29,9 @@ li {
   cursor: pointer;
 }
 
-.li-item {
+.home-item,
+.about-item,
+.contact-item {
   background-color: burlywood;
   padding: 1.2rem 1.1rem;
   display: flex;
@@ -40,6 +42,18 @@ li {
   top: 12%;
   left: 41%;
   box-shadow: 0px 3px 2px 0px gray;
+}
+
+.about-item {
+  position: absolute;
+  top: 12%;
+  left: 51%;
+}
+
+.contact-item {
+  position: absolute;
+  top: 12%;
+  left: 61%;
 }
 
 .item {
