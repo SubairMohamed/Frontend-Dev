@@ -38,16 +38,19 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 3px 2px 0px gray;
+}
+
+.home-item {
   position: absolute;
   top: 12%;
   left: 41%;
-  box-shadow: 0px 3px 2px 0px gray;
 }
 
 .about-item {
   position: absolute;
   top: 12%;
-  left: 51%;
+  left: 48.01%;
 }
 
 .contact-item {
