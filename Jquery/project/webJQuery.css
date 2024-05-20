@@ -77,7 +77,10 @@ li {
 #btn-dark {
   padding: 0.5rem 1.4rem;
   background-color: white;
-  border-color: white;
+}
+
+#btn-dark:hover {
+  background-color: burlywood;
 }
 
 #btn-dark a {
