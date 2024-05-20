@@ -88,3 +88,13 @@ li {
   text-transform: capitalize;
   color: black;
 }
+
+.fa {
+  color: black;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
