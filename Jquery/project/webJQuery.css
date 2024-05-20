@@ -12,6 +12,9 @@ nav {
   padding: 1rem;
   box-shadow: 3px 3px 2px 1px gray;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
