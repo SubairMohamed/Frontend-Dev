@@ -74,10 +74,14 @@ li {
   margin: 2rem 1rem;
 }
 
-/* #btn-dark {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-left: auto;
+#btn-dark {
   padding: 0.5rem 1.4rem;
-} */
+  background-color: white;
+  border-color: white;
+}
+
+#btn-dark a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
