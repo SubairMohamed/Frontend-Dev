@@ -70,14 +70,6 @@ li {
   margin: 2rem 1rem;
 }
 
-.body {
-  background-color: brown;
-}
-
-.nav {
-  background-color: white;
-}
-
-.text {
-  color: black;
+#btn-dark {
+  padding: 0.5rem 1.4rem;
 }
