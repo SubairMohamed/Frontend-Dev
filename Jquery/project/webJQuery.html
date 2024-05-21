@@ -29,6 +29,12 @@
             // making image dynamic
 
             var imgs = ["/imgs/pngegg.png", "/imgs/eglale.png"];
+            var num = 0;
+            $("img").click(function () {
+                $("img").attr("src", imgs[num]);
+                num++;
+                if (num > 1) { num = 0 }
+            });
         });
     </script>
 
