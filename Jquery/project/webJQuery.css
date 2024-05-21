@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: bisque;
 }
 
 nav {
@@ -101,4 +102,8 @@ button {
 
 img {
   cursor: pointer;
+}
+
+#home {
+  margin: 10rem 0;
 }
