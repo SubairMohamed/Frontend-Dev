@@ -110,9 +110,19 @@ img {
 
 .title {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: bolder;
   text-transform: capitalize;
   text-align: center;
   color: #0a9ab7;
-  padding-top: 2.3rem;
+  padding-top: 3.3rem;
+  line-height: 8px;
+}
+
+.title-para {
+  font-size: 1.75rem;
+  text-align: center;
+  color: #0a9ab7;
+  line-height: normal;
+  width: 50%;
+  margin: 0 auto;
 }
