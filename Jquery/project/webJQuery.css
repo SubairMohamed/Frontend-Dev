@@ -109,7 +109,10 @@ img {
 }
 
 .title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
   text-align: center;
   color: #0a9ab7;
-  padding-top: 2rem;
+  padding-top: 2.3rem;
 }
