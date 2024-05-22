@@ -108,7 +108,8 @@ img {
   margin: 10rem 0;
 }
 
-.title {
+.title,
+.about-title {
   font-size: 2rem;
   font-weight: bolder;
   text-transform: capitalize;
@@ -132,4 +133,8 @@ img {
   margin: 0 auto;
   padding-top: 3.3rem;
   line-height: 8px;
+}
+
+.about-title {
+  padding-top: 1rem;
 }
