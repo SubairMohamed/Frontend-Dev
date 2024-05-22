@@ -150,3 +150,7 @@ img {
   background-color: black;
   box-shadow: 3px 3px 2px 1px gray;
 }
+
+.body {
+  background-color: #151515;
+}
