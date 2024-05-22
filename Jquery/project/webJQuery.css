@@ -140,3 +140,7 @@ img {
 }
 
 /* dark-mode btn */
+
+.nav {
+  background-color: black;
+}
