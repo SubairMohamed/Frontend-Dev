@@ -115,6 +115,15 @@
             // chaining
             $("#chain2").css("padding-left", '10rem').slideUp(1000)
                 .slideDown(1000); // indentation
+
+            // Filter 
+            $("#my-Input").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#my-Table tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+
         });
     </script>
 
@@ -210,7 +219,7 @@
             <th>LastName</th>
             <th>Email</th>
         </thead>
-        <tbody>
+        <tbody id="my-Table">
             <tr>
                 <td>Hamse</td>
                 <td>cabdi</td>
