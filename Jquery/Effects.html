@@ -125,6 +125,15 @@
             });
 
             // Filter Lists
+            //#myInput
+            //#myList
+
+            $("#myInput").on("keyup", function () {
+                var litem = $(this).val().toLowerCase();
+                $("#myList li").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(litem) > -1);
+                });
+            });
 
 
         });
@@ -250,13 +259,13 @@
     <br>
     <br>
 
-    <input id="FLists" type="text" placeholder="Search...">
+    <input id="myInput" type="text" placeholder="Search..">
 
-    <ul #="F-lists">
-        <li class="F-item">First item</li>
-        <li class="F-item">Second item</li>
-        <li class="F-item">Third item</li>
-        <li class="F-item">Fourth</li>
+    <ul id="myList">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth</li>
     </ul>
 
 </body>
