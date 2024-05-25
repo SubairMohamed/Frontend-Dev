@@ -58,6 +58,7 @@
 }
 /* End JQuery Animate */
 
+/* Start Filter */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -72,4 +73,10 @@ th {
 
 tr:nth-child(even) {
   background-color: gray;
+}
+
+/* Filter Lists */
+
+.F-item {
+  margin-top: 20px;
 }
