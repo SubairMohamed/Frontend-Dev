@@ -133,6 +133,12 @@
             });
 
             // Filter Anything
+            $("#myInputDiv").on("keyup", function () {
+                var div = $(this).val().toLowerCase();
+                $("#myDiv *").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(div) > -1);
+                });
+            });
 
         });
     </script>
