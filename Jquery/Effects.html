@@ -116,13 +116,16 @@
             $("#chain2").css("padding-left", '10rem').slideUp(1000)
                 .slideDown(1000); // indentation
 
-            // Filter 
+            // Filter / Search
             $("#my-Input").on("keyup", function () {
                 var value = $(this).val().toLowerCase();
                 $("#my-Table tr").filter(function () {
                     $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                 });
             });
+
+            // Filter Lists
+
 
         });
     </script>
@@ -242,6 +245,13 @@
             </tr>
         </tbody>
     </table>
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </body>
 
 </html>
