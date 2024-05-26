@@ -160,11 +160,19 @@ img {
 }
 
 table {
-  margin: 2rem auto;
-  width: 80%;
+  width: 90%;
+  border-collapse: collapse;
+  margin: 5rem auto;
 }
 
 table thead {
   font-size: 1.7rem;
   color: #322c2b;
+}
+
+td,
+th {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
 }
