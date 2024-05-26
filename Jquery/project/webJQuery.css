@@ -158,6 +158,11 @@ img {
 .main-text {
   color: #2a629a;
 }
+
+.tr-child {
+  background-color: gray;
+}
+
 /* ends dark-mode btn */
 
 #filtering {
@@ -203,6 +208,6 @@ tr td:first-child {
   text-transform: uppercase;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: antiquewhite;
 }
