@@ -167,7 +167,8 @@ table {
 
 table thead {
   font-size: 1.7rem;
-  color: #322c2b;
+  color: #2a629a;
+  font-weight: bolder;
 }
 
 td,
@@ -175,4 +176,11 @@ th {
   border: 1px solid gray;
   padding: 10px;
   text-align: center;
+}
+
+td {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #322c2b;
+  text-transform: capitalize;
 }
