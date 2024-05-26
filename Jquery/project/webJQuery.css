@@ -109,7 +109,8 @@ img {
 }
 
 .title,
-.about-title {
+.about-title,
+.title-filter {
   font-size: 2rem;
   font-weight: bolder;
   text-transform: capitalize;
@@ -140,7 +141,6 @@ img {
 }
 
 /* dark-mode btn */
-
 .nav {
   background-color: black;
   box-shadow: 3px 3px 2px 1px gray;
@@ -164,13 +164,13 @@ img {
   margin: 5rem auto;
 }
 
-.title-filter {
+/* .title-filter {
   font-size: 2rem;
   font-weight: bolder;
   text-transform: capitalize;
   text-align: center;
   color: #322c2b;
-}
+} */
 
 #myInput {
   border: none;
