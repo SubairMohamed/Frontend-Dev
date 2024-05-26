@@ -209,3 +209,7 @@ td {
 tr td:first-child {
   text-transform: uppercase;
 }
+
+tr:nth-child(even) {
+  background-color: antiquewhite;
+}
