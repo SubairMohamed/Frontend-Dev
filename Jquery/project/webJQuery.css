@@ -163,6 +163,15 @@ img {
   margin: 5rem auto;
 }
 
+#myInput {
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
 table {
   width: 90%;
   border-collapse: collapse;
