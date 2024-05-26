@@ -158,3 +158,8 @@ img {
 .main-text {
   color: #2a629a;
 }
+
+table {
+  margin: 2rem auto;
+  width: 80%;
+}
