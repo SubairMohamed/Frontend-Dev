@@ -159,10 +159,14 @@ img {
   color: #2a629a;
 }
 
+#filtering {
+  margin: 5rem auto;
+}
+
 table {
   width: 90%;
   border-collapse: collapse;
-  margin: 5rem auto;
+  margin: 1.1rem auto;
 }
 
 table thead {
