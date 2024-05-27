@@ -110,7 +110,8 @@ img {
 
 .title,
 .about-title,
-.title-filter {
+.title-filter,
+.equal-title {
   font-size: 2rem;
   font-weight: bolder;
   text-transform: capitalize;
