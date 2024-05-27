@@ -170,13 +170,18 @@ img {
   margin: 5rem auto;
 }
 
-#myInput {
+#myInput,
+#equal {
   border: none;
   padding: 1rem;
   border-radius: 5px;
   display: block;
   margin: 0 auto;
   width: 40%;
+}
+
+#equal {
+  margin-bottom: 2rem;
 }
 
 table {
