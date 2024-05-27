@@ -58,7 +58,8 @@
             });
 
             // Equality 
-            $("form").submit(function () {
+            $("form").submit(function (event) {
+                event.preventDefault();
                 var Etitle = $("#equal-input").val();
                 $(".equal-title").html(Etitle);
             });
