@@ -63,6 +63,9 @@
                 var Etitle = $("#equal-input").val();
                 $(".equal-title").html(Etitle);
             });
+            $(".clear").click(function () {
+                $("form")[0].reset();
+            });
 
         });
     </script>
@@ -173,6 +176,7 @@
                 <h1 class="equal-title">Write what title ever you want</h1>
                 <input id="equal-input" type="text" placeholder="write title's name">
                 <input type="submit" value="Change">
+                <button class="clear">Clear</button>
             </form>
         </section>
     </main>
