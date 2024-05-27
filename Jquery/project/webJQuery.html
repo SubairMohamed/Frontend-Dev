@@ -58,7 +58,10 @@
             });
 
             // Equality 
-
+            $("form").submit(function () {
+                var Etitle = $("#equal-input").val();
+                $(".equal-title").html(Etitle);
+            });
 
         });
     </script>
@@ -165,8 +168,11 @@
         </section>
 
         <section id="equal">
-            <h1 class="equal-title">Write what title ever you want</h1>
-            <input id="equal" type="text" placeholder="write title's name">
+            <form action="">
+                <h1 class="equal-title">Write what title ever you want</h1>
+                <input id="equal-input" type="text" placeholder="write title's name">
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
 </body>

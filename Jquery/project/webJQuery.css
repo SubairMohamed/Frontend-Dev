@@ -171,7 +171,7 @@ img {
 }
 
 #myInput,
-#equal {
+#equal-input {
   border: none;
   padding: 1rem;
   border-radius: 5px;
@@ -180,7 +180,7 @@ img {
   width: 40%;
 }
 
-#equal {
+#equal-input {
   margin-bottom: 2rem;
 }
 
