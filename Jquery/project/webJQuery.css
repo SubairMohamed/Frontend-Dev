@@ -184,6 +184,17 @@ img {
   margin-bottom: 2rem;
 }
 
+input[type="submit"] {
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  color: #2a629a;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+}
+
 table {
   width: 90%;
   border-collapse: collapse;
