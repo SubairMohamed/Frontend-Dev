@@ -186,6 +186,7 @@ img {
 
 input[type="submit"],
 .clear {
+  display: inline-block;
   border: none;
   border-radius: 8px;
   padding: 1rem 1.5rem;
