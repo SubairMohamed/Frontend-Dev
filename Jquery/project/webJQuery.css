@@ -184,8 +184,7 @@ img {
   margin-bottom: 2rem;
 }
 
-input[type="submit"],
-.clear {
+input[type="submit"] {
   display: inline-block;
   border: none;
   border-radius: 8px;
