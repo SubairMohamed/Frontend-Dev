@@ -229,3 +229,7 @@ tr td:first-child {
 tr:nth-child(odd) {
   background-color: antiquewhite;
 }
+
+.empty {
+  border: 1px solid red;
+}

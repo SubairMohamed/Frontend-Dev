@@ -62,6 +62,9 @@
                 event.preventDefault();
                 var Etitle = $("#equal-input").val();
                 $(".equal-title").html(Etitle);
+                if (!$("form #equal-input").val()) {
+                    $(".equal-title").html("Write what title ever you want");
+                }
             });
 
             $("#equal-input").click(function () {
