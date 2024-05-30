@@ -96,6 +96,14 @@
             //$(this).hide();
             //},
             //});
+
+            // Keyboard Events
+            $(document).keydown(function () {
+                $("#k1").html("the keydown is released: " + event.which);
+            });
+            // $(document).keypress(function () {
+            // $("#k2").html("the keypress is released: " + event.which);
+            //  });
         });
     </script>
 
@@ -113,7 +121,8 @@
     <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, reprehenderit!</p>
 
     <!-- Keyboard events -->
-    <div id="keyboard"></div>
+    <div id="k1"></div>
+    <div id="k2"></div>
 
 </body>
 
