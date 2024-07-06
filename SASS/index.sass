@@ -34,3 +34,28 @@ $text-color: red;
   <h2>Here is another header</h2>
   <p>Even more random text within a paragraph</p>
 </div>
+
+// css reuseble mixins
+
+@mixin shape ($w, $h, $bg-color) {
+  width: $w;
+  height: $h;
+  background-color: $bg-color;
+}
+
+#square {
+  @include shape(50px, 50px, red);
+}
+
+#rect-a {
+  @include shape(100px, 50px, blue);
+}
+
+#rect-b {
+  @include shape(50px, 100px, orange);
+}
+</style>
+
+<div id="square"></div>
+<div id="rect-a"></div>
+<div id="rect-b"></div>
