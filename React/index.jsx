@@ -31,3 +31,9 @@
 //       <hr />
 //     </div>
 //   );
+
+// const MyComponent = function() {
+//      return (
+//        <div className="customComponent">hello</div>
+//      );
+//   }
