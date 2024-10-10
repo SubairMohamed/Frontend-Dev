@@ -10,3 +10,10 @@
 //     <li>well</li>
 //   </ul>
 // </div>;
+
+// const JSX = (
+//     <div id="challenge-node">
+//       <h1>Add a class to this div</h1>
+//     </div>
+//   );
+// ReactDOM.render(JSX, document.getElementById('challenge-node'));
