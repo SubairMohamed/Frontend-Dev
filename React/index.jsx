@@ -1,5 +1,3 @@
-// wn dhameenaya incha allah
-
 // const JSX = <h1>Hello JSX!</h1>;
 
 // const JSX = <div>
